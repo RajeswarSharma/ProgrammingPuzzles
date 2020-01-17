@@ -24,8 +24,8 @@ int main() {
     while(T>0)
     { cout<<"Enter the number \n";
         cin>>N;
-        if(N%2==0) cout<<(N/2);
-        else cout<<(1+N/2);
+        if(N%2==0) cout<<(N/2)<<endl;
+        else cout<<(1+N/2)<<endl;
         T--;
     }
     return 0;
