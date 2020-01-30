@@ -1,3 +1,4 @@
+//Using_InsertionSort
 #include <iostream>
 #include<string.h>
 #include<stdio.h>
@@ -16,13 +17,13 @@ char temp[20];
         strcpy(temp,name[i]);
         while(temp[k]<=name[j][k]&&j+1>=0)
         {
-        if(name[j][k]==temp[k])//issue
+        if(name[j][k]==temp[k])
             {
                 k++;
             }
         else
             {
-            strcpy(name[j+1],name[j]);// issue
+            strcpy(name[j+1],name[j]);
             j--;
             k=0;
             }
@@ -30,7 +31,8 @@ char temp[20];
         }
     strcpy(name[j+1],temp);
     }
- for(int i=0;i<Size;i++)
+
+  for(int i=0;i<Size;i++)
     {
     puts(name[i]);
     cout<<endl;
