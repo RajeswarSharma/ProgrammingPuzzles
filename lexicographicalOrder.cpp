@@ -6,7 +6,7 @@ using namespace std;
 int Size=9;
 int main()
 {
-char name[Size][20]={{"Olivia"},{"Amelia"},{"Isla"},{"Ava"},{"Emily"},{"Sophia"},{"Grace"},{"Mia"},{"Poppy"}};
+char name[Size][20]={{"Olivia"},{"Amelia"},{"Isla"},{"Ava"},{"Emily"},{"Sophia"},{"Grace"},{"Mio"},{"Poppy"}};
 
 char temp[20];
     int j=0,k;
