@@ -5,7 +5,7 @@ using namespace std;
 int Size=9;
 int main()
 {
-    char name[Size][20]={{"Olivia"},{"Amelia"},{"Isla"},{"Ava"},{"Emily"},{"Sophia"},{"Grace"},{"Mia"},{"Poppy"}};
+    char name[Size][20]={{"Olivia"},{"Amelia"},{"Isla"},{"Ava"},{"Emily"},{"Sophia"},{"Grace"},{"Mio"},{"Poppy"}};
     char temp[20];
 for(int i=0;i<Size-1;i++)
 {
