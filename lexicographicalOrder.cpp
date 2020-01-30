@@ -15,7 +15,7 @@ char temp[20];
         j=i-1;
         k=0;
         strcpy(temp,name[i]);
-        while(temp[k]<=name[j][k]&&j+1>=0)
+        while(temp[k]<name[j][k]&&j+1>=0)
         {
         if(name[j][k]==temp[k])
             {
@@ -25,7 +25,7 @@ char temp[20];
             {
             strcpy(name[j+1],name[j]);
             j--;
-            k=0;
+            k=0; //K is made zero to start new comparison after every swaping, 
             }
 
         }
